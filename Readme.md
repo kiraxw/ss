@@ -13,9 +13,9 @@ shadowsocks-libev.sh
 
 shadowsocks-libev-debian.sh
 ===============
-- Auto Install Shadowsocks(libev) Server for Debian/Ubuntu
-- https://teddysun.com/358.html
-
+wget --no-check-certificate -O shadowsocks-libev-debian.sh https://raw.githubusercontent.com/kiraxw/ss/master/shadowsocks-libev-debian.sh
+chmod +x shadowsocks-libev-debian.sh
+./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log
 shadowsocks-go.sh
 ===============
 - Auto Install Shadowsocks(Go) Server for CentOS/Debian/Ubuntu
